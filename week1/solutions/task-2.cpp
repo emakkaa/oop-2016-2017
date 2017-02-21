@@ -17,7 +17,7 @@ void MaxAndMinSquareSum(int matrix[][MAX], int rows , int cols) {
 
 	for (int i = 0; i <= rows - SQUARESIZE; ++i) {
 		for (int j = 0; j <= cols - SQUARESIZE; ++j) {
-			cout << i << ',' << j << std::endl;
+			//can be also done with 2 nested loops
 			int tempSum = matrix[i][j] + matrix[i][j + 1] + matrix[i][j + 2] +
 				matrix[i + 1][j] + matrix[i + 1][j + 1] + matrix[i + 1][j + 2] +
 				matrix[i + 2][j] + matrix[i + 2][j + 1] + matrix[i + 2][j + 2];
