@@ -10,8 +10,8 @@ struct Point3D {
 	double y;
 	double z;
 
-	Point3D(double newX1, double _y, double _z) {
-		x =  newX1;
+	Point3D(double _x, double _y, double _z) {
+		x =  _x;
 		y = _y;
 		z = _z;
 	}
