@@ -16,6 +16,7 @@ class Dog
 class DogShelter
 
 	Dog* dogs;
+    int numDogs;
 	char* shelterName;
 	DogShelter();
 	DogShelter(char* name);
