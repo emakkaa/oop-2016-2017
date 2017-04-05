@@ -29,11 +29,13 @@ class Dog{
 	bool operator!=(const Dog& other) const;
     ~Dog();
 
+	//helps to print a dog using output
 	friend ostream &operator<<(ostream &os, Dog& d) {
 		os << d.getName() << "\n";
 		return os;
 	}
 
+	//setting dog name using input
 	friend istream &operator>>(istream &is, Dog& d) {
 		is >> d.dogName;
 		return is;
