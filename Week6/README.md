@@ -1,4 +1,4 @@
-#Работа с оператори
+#Работа с оператори 
 class Dog
 
 	char* dogName;
@@ -37,4 +37,10 @@ class DogShelter
 
 		operator +=
 		operator -=
+
+		operator++ //prefix3
+		operator++ //postfix
+		
+		ostream &operator<< ()
+		osteram &operator>>
 		
